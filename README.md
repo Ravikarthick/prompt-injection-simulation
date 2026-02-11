@@ -31,6 +31,13 @@ This project simulates a conversation between an **Attacker Agent** and a **Vict
     "C:\Users\ravik\AppData\Local\Programs\Python\Python312\python.exe" orchestrator.py
     ```
 
-## Expected Output
 
-You will see the Attacker trying various prompts and the Victim responding. If an attack is successful (e.g., using "checkmate" keywords like "Ignore instructions" or "DAN mode"), the Victim will reveal the secret.
+## Deployment
+
+If the "Deploy" button in the app doesn't work, follow these steps to deploy manually:
+
+1.  Go to [share.streamlit.io](https://share.streamlit.io/).
+2.  Click "New app".
+3.  Select your repository: `Ravikarthick/prompt-injection-simulation`.
+4.  Set branch to `master` and file path to `app.py`.
+5.  Click "Deploy!".
